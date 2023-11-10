@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextBoxApplication", "FormA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBoxApplication", "MessageBoxApplication\MessageBoxApplication.csproj", "{84D7CAFF-1E69-4D12-9F07-11D26C18C92C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorDialog", "ColorDialog\ColorDialog.csproj", "{AFE1B25C-0099-488D-9B0B-8BF9522CD2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorDialog", "ColorDialog\ColorDialog.csproj", "{AFE1B25C-0099-488D-9B0B-8BF9522CD2DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontDialog", "FontDialog\FontDialog.csproj", "{E62EF09B-BC3C-47F8-8770-E2FB6E08E463}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimePicker", "DateTimePicker\DateTimePicker.csproj", "{967BE130-D291-4CDD-AF33-6ED65D02EBA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notifyIcon", "notifyIcon\notifyIcon.csproj", "{CE73D7BD-5584-4C4A-A8B3-A0B6B1BEA77C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{AFE1B25C-0099-488D-9B0B-8BF9522CD2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE1B25C-0099-488D-9B0B-8BF9522CD2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE1B25C-0099-488D-9B0B-8BF9522CD2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62EF09B-BC3C-47F8-8770-E2FB6E08E463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62EF09B-BC3C-47F8-8770-E2FB6E08E463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62EF09B-BC3C-47F8-8770-E2FB6E08E463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62EF09B-BC3C-47F8-8770-E2FB6E08E463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967BE130-D291-4CDD-AF33-6ED65D02EBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967BE130-D291-4CDD-AF33-6ED65D02EBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967BE130-D291-4CDD-AF33-6ED65D02EBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967BE130-D291-4CDD-AF33-6ED65D02EBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE73D7BD-5584-4C4A-A8B3-A0B6B1BEA77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE73D7BD-5584-4C4A-A8B3-A0B6B1BEA77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE73D7BD-5584-4C4A-A8B3-A0B6B1BEA77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE73D7BD-5584-4C4A-A8B3-A0B6B1BEA77C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
