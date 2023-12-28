@@ -15,7 +15,7 @@ namespace ColorDialog
         private void colorButton_Click(object sender, EventArgs e)
         {
             DialogResult result = colorDialog1.ShowDialog(this); //rengin seçilip seçilmediðini kontrol ediyoruz.
-            if (result == DialogResult.OK) //OK butonuna basýldý mý?
+            if (result == DialogResult.OK) //OK butonuna basýldý mý basýlmadý mý?
             {
                 BackColor = colorDialog1.Color;
             }
